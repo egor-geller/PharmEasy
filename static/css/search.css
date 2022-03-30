@@ -1,0 +1,30 @@
+/*.icon {
+    display: flex;
+    align-items: center;
+}*/
+
+.material-icons.mdc-button__icon {
+    position:absolute;
+}
+
+.mdc-button__icon + input {
+    padding-left: 25px;
+}
+
+.input-group .autocom-box {
+    opacity: 0;
+}
+
+.input-group.active .autocom-box {
+    list-style: none;
+    width: 100%;
+    cursor: default;
+    border-radius: 3px;
+    background: lightgreen;
+    opacity: 1;
+    padding: 0;
+    pointer-events: auto;
+    max-height: 280px;
+    overflow-y: 10px;
+    z-index: 15;
+}
